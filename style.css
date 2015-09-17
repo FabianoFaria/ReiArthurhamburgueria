@@ -72,11 +72,16 @@ html, body { height: 100%; }
 
 #wrapper { min-height: 100%; position: relative; background-color: #fff; }
 #container { 
-	margin-top: 10px; 
-	padding-bottom: 147px; /* 147px is height of footer */
+	margin-top: 0px; /* 10px */ 
+	padding-bottom: 0px; /* 147px is height of footer */
 	*padding-bottom: 132px; 
+	background: transparent url("imagens/bg-footer.jpg") repeat scroll 0px 0px;
 }
-#header {background: url("imagens/headerBg.jpg") repeat scroll center top #180405;height: 78px; margin-bottom: 78px; z-index:10;}
+#header {
+	background: transparent url("imagens/bg-footer.jpg") repeat scroll 0px 0px;
+	/*background: url("imagens/headerBg.jpg") repeat scroll center top #180405;height: 78px; margin-bottom: 78px; z-index:10; */
+
+}
 
 #header h1 {
     font-size: 22px;
@@ -1133,15 +1138,31 @@ p.exemplo span {
 
 }
 
+.box_meio{
+	margin-top: 45px;
+}
+
+.box_cardapios {
+	font-family: "Amatic SC",cursive;
+	font-weight: 400;
+	font-size: 2em;
+	line-height: 1em;
+	text-transform: uppercase;
+	color: #EEDF8F;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .cardapio-almoco, .cardapio-happy, .cardapio-jantar, .cardapio-cervejas, .cardapio-destilados, .cardapio-cafes, .cardapio-nao-alcoolicos, .cardapio-clube-do-whisky, .cardapio-coqueteis {float:left;width:302px;height:270px;margin-bottom:20px;}
 .cardapio-happy, .cardapio-destilados, .cardapio-clube-do-whisky {margin:0 27px;}
 .cardapio-almoco a, .cardapio-happy a, .cardapio-jantar a, .cardapio-cervejas a, .cardapio-destilados a, .cardapio-cafes a , .cardapio-nao-alcoolicos a, .cardapio-coqueteis a, .cardapio-clube-do-whisky a {display:block;width:302px;height:270px;background-position:0 0;background-repeat:no-repeat;}
 .cardapio-almoco a {background-image:url(imagens/foto-cardapios-almoco.jpg);}
-.cardapio-happy a {background-image:url(imagens/foto-cardapios-happy.jpg);}
+.cardapio-happy a {background-image:url(imagens/foto-cardapios-happy.png);}
 .cardapio-jantar a {background-image:url(imagens/foto-cardapios-jantar.jpg);}
 .cardapio-cervejas a {background-image:url(imagens/foto-cardapios-cervejas.jpg);}
 .cardapio-destilados a {background-image:url(imagens/foto-cardapios-destilados.jpg);}
-.cardapio-cafes a {background-image:url(imagens/foto-cardapios-cafe.jpg);}
+.cardapio-cafes a {background-image:url(imagens/foto-cardapios-cafe.png);}
 .cardapio-nao-alcoolicos a {background-image:url(imagens/foto-cardapio-nao-alcoolicos.jpg);}
 .cardapio-clube-do-whisky a {background-image:url(imagens/foto-cardapio-clube-do-whisky.jpg);}
 .cardapio-coqueteis a {background-image:url(imagens/foto-cardapio-coqueteis.jpg);}
@@ -1151,9 +1172,9 @@ p.exemplo span {
 
 
 /* Footer */
-#footer {float:left;width:100%;height:558px;background:url(imagens/bg-footer.jpg) 0 0 repeat;}
+#footer {float:left;width:100%;height:458px;background:url(imagens/bg-footer.jpg) 0 0 repeat;}
 
-.footer2 {min-height:480px;background:url(imagens/bg-footer2.jpg) top center no-repeat;}
+.footer2 {min-height:380px;background:url(imagens/bg-footer2.jpg) top center no-repeat;}
 
 #assinatura {float:left;width:100%;height:50px;padding:20px 0 0 0;background:url(imagens/bg-menu.jpg) 0 0 repeat-x;}
 #assinatura h2, #assinatura h3 {font-family: 'Amatic SC', cursive;font-weight:400;font-size:1.2em;color:#fff;}

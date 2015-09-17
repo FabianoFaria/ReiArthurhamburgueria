@@ -76,7 +76,7 @@
 				}
 				
 				#header{
-					background: none !important;
+					/* background: none !important; */
 				}
 				
 				.flash{
@@ -325,8 +325,8 @@
 
 				</div> <!-- bannerContainer -->
 
-				<div class="container_12">
-					<h3>Card&aacute;pios do Rei Arthur</h3>
+				<div class="box_meio container_12">
+					<h3 class="box_cardapios">Card&aacute;pios do Rei Arthur</h3>
 
 					<div class="cardapio-almoco"><a href="#" title="Card&aacute;pio de Almo&ccedil;o"><span>almo&ccedil;o</span></a></div>
 					<div class="cardapio-happy"><a href="#" title="Card&aacute;pio de Happy Hour"><span>happy hour</span></a></div>
@@ -360,27 +360,14 @@
 								<p>S&aacute;bados a partir das 20h</p>
 							</div>
 							<div class="box">
-								<h2>Jokers Pub</h2>
+								<h2>Pub</h2>
 								<p>Ter&ccedil;a a Sexta a partir das 18h</p>
 								<p>S&aacute;bados a partir das 20h</p>
 							</div>
 						</div>
 
 						<div class="linha-footer">
-							<h3>Mapa do site</h3>
-							<nav class="nav-footer">
-							<ul>
-								<li><a href="http://www.jokers.com.br/jokers/" title="Conhe&ccedil;a o Jokers" class="jokers"></a></li>
-								<li><a href="http://www.jokers.com.br/agendas/" title="Agenda de Eventos" class="agenda"></a></li>
-								<li><a href="http://www.jokers.com.br/servicos/" title="Nossos Servi&ccedil;os" class="servicos"></a></li>
-								<li><a href="http://www.jokers.com.br/blog/" target="_blank" title="Blog" class="news"></a></li>
-								<li><a href="http://www.jokers.com.br/promocoes/" title="Nossas Promo&ccedil;&otilde;es" class="promocoes"></a></li>
-								<li><a href="http://www.jokers.com.br/albuns/" title="Galeria Jokers" class="galeria"></a></li>
-								<li><a href="http://www.jokers.com.br/cardapios/" title="Card&aacute;pio" class="cardapio"></a></li>
-								<li><a href="http://www.jokers.com.br/jukebox/" title="Jukebox Jokers" class="jukebox"></a></li>
-								<li><a href="http://www.jokers.com.br/contato/" title="Entre em contato conosco" class="contato"></a></li>
-							</ul>
-							</nav>
+							
 						</div>
 
 						<h1 class="logo-footer"><a href="http://www.jokers.com.br/"><img src="imagens/topo.png" alt="Logo Rei Arthur" title="Rei Arthur" /></a></h1>
